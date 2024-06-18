@@ -7,7 +7,7 @@ const Footer = () => {
       <MaxWidthWrapper>
         <div className="border-t border-gray-200" />
 
-        <div className="flex h-full flex-col items-center justify-center gap-3 md:flex-row md:justify-between md:gap-0">
+        <div className="gap flex h-full flex-col items-center justify-center md:flex-row md:justify-between md:gap-0">
           <div className="pb-2 text-center md:pb-0 md:text-left">
             <p className="text-sm text-muted-foreground">
               &copy; {new Date().getFullYear()} All rights reserved
